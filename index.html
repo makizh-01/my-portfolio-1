@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Makizh N | Portfolio</title>
+    <meta
+      name="description"
+      content="Portfolio of Makizh N - Computer Science (Data Analytics) student building AI-driven solutions."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-bg"></div>
+
+    <header class="header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home">Makizh<span>.N</span></a>
+        <nav class="nav" id="nav-menu">
+          <a href="#about"><i class="fas fa-user"></i>About</a>
+          <a href="#skills"><i class="fas fa-star"></i>Skills</a>
+          <a href="#projects"><i class="fas fa-briefcase"></i>Projects</a>
+          <a href="#education"><i class="fas fa-graduation-cap"></i>Education</a>
+          <a href="#contact"><i class="fas fa-envelope"></i>Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="menu-btn" id="menu-btn" aria-label="Toggle menu">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero container reveal">
+        <div class="hero-content card">
+          <p class="eyebrow">Computer Science & Data Analytics</p>
+          <h1>Makizh N</h1>
+          <p class="lead">
+            Dynamic student with strong communication, leadership, and AI-assisted problem-solving
+            skills. I build practical AI chatbots and security-focused tools that solve real user
+            challenges.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="assets/Makizh.N.pdf" target="_blank"><i class="fas fa-file-pdf"></i>View Resume</a>
+            <a class="btn btn-ghost" href="#projects"><i class="fas fa-arrow-right"></i>Explore Projects</a>
+          </div>
+          <ul class="quick-contact">
+            <li><i class="fas fa-phone"></i><strong>Phone:</strong> +91 97869 43535</li>
+            <li><i class="fas fa-envelope"></i><strong>Email:</strong> makizhprema27@gmail.com</li>
+            <li><i class="fas fa-map-marker-alt"></i><strong>Location:</strong> Coimbatore, Tamil Nadu</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="about">
+        <div class="section-head">
+          <h2><i class="fas fa-user-circle"></i>About Me</h2>
+        </div>
+        <div class="card">
+          <p>
+            I am a motivated undergraduate focused on applying AI technologies to improve
+            communication, safety, and student outcomes. I adapt quickly to new environments,
+            collaborate effectively in teams, and continuously learn emerging tools to deliver
+            meaningful results.
+          </p>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="skills">
+        <div class="section-head">
+          <h2><i class="fas fa-cogs"></i>Skills</h2>
+        </div>
+        <div class="grid two">
+          <article class="card">
+            <h3><i class="fas fa-handshake"></i>Professional Skills</h3>
+            <ul class="pill-list">
+              <li class="skill-item" data-skill="Leadership" data-level="Efficient"><i class="fas fa-crown"></i>Leadership</li>
+              <li class="skill-item" data-skill="Teamwork" data-level="Experienced"><i class="fas fa-users"></i>Teamwork</li>
+              <li class="skill-item" data-skill="Time Management" data-level="Skillful"><i class="fas fa-clock"></i>Time Management</li>
+              <li class="skill-item" data-skill="Communication" data-level="Skillful"><i class="fas fa-comments"></i>Communication</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3><i class="fas fa-brain"></i>AI & Productivity</h3>
+            <ul class="pill-list">
+              <li class="skill-item" data-skill="Skilled in Using AI Technologies" data-level="Highly efficient"><i class="fas fa-robot"></i>AI Tech</li>
+              <li class="skill-item" data-skill="Effective AI Prompting" data-level="Highly efficient"><i class="fas fa-wand-magic-sparkles"></i>AI Prompting</li>
+              <li class="skill-item" data-skill="Applied Problem Solving" data-level="Skillful"><i class="fas fa-puzzle-piece"></i>Problem Solving</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="projects">
+        <div class="section-head">
+          <h2><i class="fas fa-rocket"></i>Projects</h2>
+        </div>
+        <div class="grid featured-project">
+          <a
+            class="card project project-link featured"
+            href="https://skill-verse-1.vercel.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div class="project-badge">Featured</div>
+            <h3>SkillVerse</h3>
+            <p>
+              Student-focused platform that guides users toward free top-tier courses,
+              certifications, and placement training through real-time practical simulations.
+            </p>
+            <span class="project-arrow">→</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="education">
+        <div class="section-head">
+          <h2><i class="fas fa-book"></i>Education & Certifications</h2>
+        </div>
+        <div class="grid two">
+          <article class="card timeline">
+            <h3><i class="fas fa-graduation-cap"></i>Education</h3>
+            <div class="item">
+              <h4>Bachelor of Computer Science with Data Analytics</h4>
+              <p>Sankara College of Science and Commerce, Coimbatore, India</p>
+            </div>
+            <div class="item">
+              <h4>Higher Secondary (Jun 2023)</h4>
+              <p>Holy Angels Matric Hr. Sec School, Coimbatore, India</p>
+            </div>
+            <div class="item">
+              <h4>SSLC (Jun 2021)</h4>
+              <p>LEF Christian Matric School, Coimbatore, India</p>
+            </div>
+          </article>
+          <article class="card timeline">
+            <h3><i class="fas fa-certificate"></i>Certifications</h3>
+            <div class="item">
+              <h4>Certified in Usage of AI Tools</h4>
+            </div>
+            <div class="item">
+              <h4>Certified in Specific Completion of ChatGPT</h4>
+            </div>
+            <h3 class="subheading"><i class="fas fa-globe"></i>Languages</h3>
+            <ul class="pill-list">
+              <li><i class="fas fa-language"></i>Tamil</li>
+              <li><i class="fas fa-language"></i>English</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section container reveal" id="contact">
+        <div class="card contact-card">
+          <h2><i class="fas fa-handshake-alt"></i>Let's Connect</h2>
+          <p>I’m open to internships, collaborations, and AI-focused opportunities.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="mailto:makizhprema27@gmail.com"><i class="fas fa-envelope"></i>Email Me</a>
+            <a class="btn btn-ghost" href="tel:+919786943535"><i class="fas fa-phone"></i>Call Me</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/makizh-n" target="_blank" rel="noreferrer" class="social-link" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/makizh-01" target="_blank" rel="noreferrer" class="social-link" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p>© <span id="year"></span> Makizh N. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
